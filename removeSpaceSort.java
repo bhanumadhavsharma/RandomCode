@@ -18,12 +18,12 @@ public class Main
 		}
 //		System.out.println(answer);
 
-        String[] splitOrder = answer.split("");
-        answer = "";
-        Arrays.sort(splitOrder);
-        for (int i = 0; i < splitOrder.length; i++){
-            answer = answer.concat(splitOrder[i]);
-        }
-        System.out.println(answer);
+	        String[] splitOrder = answer.split("");
+        	answer = "";
+        	Arrays.sort(splitOrder);
+        	for (int i = 0; i < splitOrder.length; i++){
+            		answer = answer.concat(splitOrder[i]);
+        	}
+		System.out.println(answer);
 	}
 }
